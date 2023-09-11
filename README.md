@@ -1,3 +1,19 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "quracik",
+    Text = "Made By Arda",
+    Icon = "rbxassetid://57254792";
+Duration = 5;
+})
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local Win1 = DiscordLib:Window("hahahahaha") -- Title/Name
+
+local Tab1 = Win1:Server("Utku Sen Seye Benziyon", "") -- Server/Tab
+
+local Chann1 = Tab1:Channel("Yarragıma") -- Channel 0_0
+
+
+Chann1:Button("Utkuya girmek icin tıkla", function()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Murderes vs sherifs Utkuya Ozel", HidePremium = false, Intro = false, IntroText = "Arda danın dasagını yiyin", SaveConfig = true, ConfigFolder = "OrionTest"})
 
@@ -87,3 +103,4 @@ local Section = Tab:AddSection({
 })
 
  OrionLib:Init()
+  end)
